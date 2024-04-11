@@ -13,14 +13,13 @@ pipeline {
                 // Execute tests
                 bat 'mvn clean test'
             }
-            post {
-                // Handle test results and generate reports
-            }
+         
         }
         stage('Deployment') {
             steps {
                 // Deploy the application
                 // Replace with actual deployment script
+                echo 'Deployment execution completed'
             }
         }
         stage('Clean Up') {
