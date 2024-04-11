@@ -27,6 +27,7 @@ pipeline {
             steps {
                 // Clean up temporary files or resources
                 // Replace with actual cleanup script
+                echo 'Pipeline execution completed'
             }
         }
     }
